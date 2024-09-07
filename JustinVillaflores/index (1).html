@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">My<span>Portfolio</span></h2>
+        <div class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Experienced</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <a href="#" class="btn_talk">Let's Talk</a>
+    </header>
+
+    <section class="home">
+        <div class="content">
+            <h2>Hi I'm <span>Justin Villaflores</span></h2>
+            <h5>Student</h4>
+            <p>I'm a Second Year College student</p>
+
+            <a href="My Resume.pdf"download-cv download>Download My CV</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="content">
+            <div class="section-titles">
+                <h2>About <span>Me</span></h2>
+                <hr>
+            </div>
+            <div class="section-content-2">
+                <div class="section-box">   
+                    <img src="About Me.png" style="width: auto;">
+                </div>
+                <div class="section-box">
+                    <p>My name is Justin Villaflores, 19 years old and Second year college student and studying Computer Science, I have experience in C programming, html & css, Php, and Java. I studied computer science because i have a passion for problem-solving and enjoy working on complex technical challenges. I also wanted to work in a field that is constantly evolving and offers opportunities for growth and learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="content">
+            <div class="section-titles">
+                <h2>My <span>Experienced</span></h2>
+                <hr>
+            </div>   
+            <div class="section-content">
+                <div class="projects-list">  
+                    <div class="section-box-img">
+                        <img src="vs.png">
+                        <h5>Visual Studio Code</h5>
+                        
+                    </div>
+                    <div class="section-box-img">
+                        <img src="js.png">
+                        <h5>Html, Css, Js</h5>
+                        
+                    </div>
+                    <div class="section-box-img">
+                        <img src="php.png">
+                        <h5>Php</h5>
+                        
+                    </div>
+                </div> 
+            </div>
+    </section>
+        <section id="hobbies">
+            <div class="content">
+                <div class="section-titles">
+                    <h2>My <span>Hobbies</span></h2>
+                    <hr>
+                </div>
+                <div class="hobbies-grid">
+                    <div class="hobby-item">
+                        <img src="drawing.jpg" alt="Hobby 1">
+                        <h5>Drawing</h5>
+                    </div>
+                    <div class="hobby-item">
+                        <img src="guitar.jpg" alt="Hobby 2">
+                        <h5>Guitar</h5>
+                    </div>
+                    <div class="hobby-item">
+                        <img src="ehe.jpg" alt="Hobby 3">
+                        <h5>Rides</h5>
+                    </div>
+                    <div class="hobby-item">
+                        <img src="car.jpg" alt="Hobby 4">
+                        <h5>Playing Online Games</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+        <section id="contact">
+            <div class="content">
+                <div class="section-titles">
+                    <h2>Contact <span>Me</span></h2>
+                    <hr>
+                </div>
+                <div class="form-container">
+                    <form method="post" action="#">
+                        <div class="form-input-container">
+                            <label>Full Name</label><br>
+                            <input type="text" placeholder="Enter Your Full Name" required>
+                        </div>
+                        <div class="form-input-container">
+                            <label>Contact</label><br>
+                            <input type="text" placeholder="Enter Your Mobile Number" required>
+                        </div>
+                        <div class="form-input-container">
+                            <label>Email Address</label><br>
+                            <input type="email" placeholder="Enter Your Email Address" required>
+                        </div>
+                        <div class="form-input-container">
+                            <input type="submit" value="submit">
+                        </div>
+                    </form>
+                </div>
+                
+                <div id="confirmation-message" style="display:none;">
+                    <h3>Thank you for contacting us!</h3>
+                    <p>We have received your message and will get back to you shortly.</p>
+                </div>
+        
+                <!-- Social Media Links -->
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100068613516385" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/villaflores.justin?igsh=aXZzbnJrb2Z1YjQz" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://t.me/jstnmrpvlflrs" target="_blank" class="social-icon">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <footer>
+        Thankyou
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
